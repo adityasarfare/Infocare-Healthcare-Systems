@@ -1,0 +1,11 @@
+
+<label for="num1">Number 1:</label>
+<input type="number" id="num1" [(ngModel)]="num1" /><br />
+
+<label for="num2">Number 2:</label>
+<input type="number" id="num2" [(ngModel)]="num2" /><br />
+
+<button (click)="multiply()">Multiply</button>
+
+<p *ngIf="result">Result: {{ result }}</p>
+
